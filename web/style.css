@@ -1,0 +1,140 @@
+body { font-family: Arial; font-size: 20px; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#form_login, #form_cadastro, #form_insere_topico {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.titulo { font-size: 30px; }
+#erro { color: red; }
+#usuario_cadastrado { color: green; }
+
+.links { 
+    float: right;
+    margin-top: 20px;
+    margin-right: 32%;
+}
+
+.links a { color: white; }
+
+#titulo_topicos {
+    float: left;
+    margin-top: 5px;
+    margin-right: 195px;
+}
+
+#link_ranking, #link_inserir_topico, #link_topicos, #link_topicos_ranking { 
+    background-color: #08c;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+#link_ranking > a:visited, 
+#link_inserir_topico > a:visited, 
+#link_topicos > a:visited, 
+#link_topicos_ranking > a:visited {
+    color: white;
+}
+
+#topico, hr {
+    width: 40%;
+    margin-left: 28%;
+}
+
+#topico_login { 
+    float: right;
+    color: gray;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+hr { 
+    height: 2px;
+    background-color: #eff0f1;
+    border: none;
+}
+
+textarea { padding: 10px; }
+
+#conteudo_exibe_topico, #conteudo_ranking { 
+    width: 40%;
+    margin: 0 auto;
+}
+
+#titulo_exibir_topico {
+    float: left;
+    margin-top: 5px;
+}
+
+#conteudo_exibe_topico > hr { 
+    width: 100%; 
+    margin-left: 0; 
+}
+
+#conteudo_exibe_topico > .links { 
+    float: right;
+    width: 100%; 
+    margin-top: 20px;
+    margin-right: 0%;
+}
+
+#link_topicos { float: right; }
+#titulo_topico { font-size: 24px; }
+
+#login_topico { 
+    color: gray;
+    font-size: 14px;
+}
+
+#conteudo_topico {
+    width: 95%;
+    background-color: #f8f8f8;
+    padding: 12px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+#conteudo_exibe_topico textarea { height: 15px; }
+
+#botao_comentar { 
+    height: 40px;
+    float: right;
+    margin-right: 2px;
+}
+
+#login_comentario { 
+    font-size: 14px; 
+    color: #333; 
+}
+
+#comentario { 
+    font-size: 16px; 
+    color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) { background-color: #dddddd; }
+
+#conteudo_ranking > .links {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#titulo_ranking { float: left; }
+#link_topicos_ranking { float: right; }
